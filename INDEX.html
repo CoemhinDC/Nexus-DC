@@ -22,20 +22,19 @@
         }
         footer 
         {
-          background-color: black;
+          background-color:#343A40;
           width: 100%;
           height: 75px;
           bottom: 0%;
-          padding: 0%;
+          padding:0%;
           padding-top: 10px;
-          position: -ms-page;
+          position:-ms-page;
         }
         .texto 
         {
           font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
           font-style: normal; 
           text-align:center;
-          padding-top: 0%;
           color:white;
         }
         .lol
@@ -55,11 +54,14 @@
           min-width: 210px;
           min-height: 66px;
         }
-          
+        .bodybackground
+        {
+          background-color:black;
+        } 
      </style>
 </head>
 
-<body class="d-flex flex-column h-100">
+<body class="bodybackground">
     
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <a class="navbar-brand" href="C:\Users\kevin.dacosta\Desktop\Nexus-DC\INDEX.html">Walls DC</a>
@@ -98,19 +100,20 @@
     </section><!-- Fin Contenedor Bruce Banner -->
 
 
-    <!-- CAROUSEL-->
 
-
-      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+    <div class="container"> <!-- Contenedor del CAROUSEL-->
+      <div class="row"> <!-- Abre el row -->
+      <div class="col-md-12"> <!-- Columna 12 -->
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel"> <!-- CAROUSEL-->
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="IMG\games 3.jpg" class="d-block w-100" alt="...">
+              <img src="IMG\games 3.jpg" class="d-flex w-100">
             </div>
             <div class="carousel-item">
-              <img src="IMG\minimal 3.jpg" class="d-block w-100" alt="...">
+              <img src="IMG\minimal 3.jpg" class="d-block w-100">
             </div>
             <div class="carousel-item">
-              <img src="IMG\landscape 3.jpg" class="d-block w-100" alt="...">
+              <img src="IMG\landscape 3.jpg" class="d-block w-100">
             </div>
           </div>
           <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -121,13 +124,17 @@
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
           </a>
-        </div>
-
+        </div> <!-- Fin CAROUSEL -->
+      </div> <!-- Fin del row -->
+      </div> <!-- Columna 12-->
+    </div> <!-- Cierra contenedor del CAROUSEL -->
 
 
 
 <!--PIE DE PÁGINA-->
+<div>
 
+</div>>
 <footer>
         <div class="texto">
           <a>© Copyright 2019 Walls DC.</a>
